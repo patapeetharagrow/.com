@@ -358,7 +358,7 @@
             <div class="w-20 h-20 bg-gradient-to-br from-red-100 to-red-50 text-red-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl shadow-inner"><i class="fas fa-user-shield"></i></div>
             <h2 class="text-2xl font-bold mb-2 text-gray-800">ผู้ดูแลระบบ</h2>
             <p class="text-sm text-gray-500 mb-6">กรุณายืนยันตัวตนเพื่อเข้าสู่หลังบ้าน</p>
-            <input type="password" id="admin-pin" placeholder="PIN 4 หลัก" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl text-center text-2xl tracking-[0.7em] focus:ring-2 focus:ring-ptgreen outline-none mb-6 shadow-inner" onkeypress="if(event.key === 'Enter') verifyAdminLogin()">
+            <input type="password" id="admin-pin" placeholder="PIN 7 หลัก" class="w-full p-4 bg-gray-50 border border-gray-200 rounded-xl text-center text-2xl tracking-[0.7em] focus:ring-2 focus:ring-ptgreen outline-none mb-6 shadow-inner" onkeypress="if(event.key === 'Enter') verifyAdminLogin()">
             <button onclick="verifyAdminLogin()" class="w-full bg-gray-900 text-white py-4 rounded-xl font-bold hover:bg-black transition shadow-lg text-lg">เข้าสู่ระบบ</button>
             <button onclick="document.getElementById('admin-login-modal').classList.remove('active')" class="mt-6 text-sm font-bold text-gray-400 hover:text-gray-700">ยกเลิก</button>
         </div>
@@ -367,7 +367,7 @@
     <script>
         const GAS_API_URL = 'https://script.google.com/macros/s/AKfycby-GVSsdGPGdKBUTpGx2dvyvy6PV7OZCPPb2ZqYnm83W33u5X1bzquyJor0NTaxX5AA/exec'; 
         const SLIP_CHECK_API = 'https://script.google.com/macros/s/AKfycbzrwJ4J-QEjA9x_ClAJLoOk9TsNtthYT-RZxYxxxHE6KL2PWaKRZPG781jXQEReolPdEQ/exec';
-        const ADMIN_PASS = '1234'; 
+        const ADMIN_PASS = 'Pp00931'; 
         let isAdminAuthed = false;
         let appData = { products: [], agents: [], reviews: [], orders: [], settings: {}, cart: [] };
 
